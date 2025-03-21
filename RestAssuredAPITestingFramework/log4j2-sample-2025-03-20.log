@@ -1,0 +1,2302 @@
+2025-03-20T12:19:19,415 [main] INFO  (AllureReportGeneration.java:27) - End to End test execution started
+2025-03-20T12:19:22,113 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4076,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T12:34:40,667 [main] INFO  (AllureReportGeneration.java:39) - End to End test execution started
+2025-03-20T12:34:43,866 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 1349,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T12:34:45,963 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1349
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T12:34:47,186 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "69f828fdd7120eb"
+}
+2025-03-20T12:34:48,419 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/1349
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:34:49,642 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1349
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:34:50,852 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/1349
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:34:52,028 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/1349
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T12:34:52,029 [main] INFO  (AllureReportGeneration.java:157) - End to End test execution Ended
+2025-03-20T12:36:26,915 [main] INFO  (AllureReportGeneration.java:39) - End to End test execution started
+2025-03-20T12:36:30,411 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 2248,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T12:36:32,416 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/2248
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T12:36:33,646 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "a1f7a972ceff9e8"
+}
+2025-03-20T12:36:34,837 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/2248
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:36:36,137 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/2248
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:36:37,487 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/2248
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T12:36:38,702 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/2248
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T12:36:38,704 [main] INFO  (AllureReportGeneration.java:157) - End to End test execution Ended
+2025-03-20T13:29:23,556 [main] INFO  (AllureReportGeneration.java:39) - End to End test execution started
+2025-03-20T13:29:26,486 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 8886,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:29:28,701 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/8886
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:29:29,953 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "df709b4fd19db7b"
+}
+2025-03-20T13:29:31,133 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/8886
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:29:32,305 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/8886
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:29:33,560 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/8886
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:29:34,816 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/8886
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T13:29:34,847 [main] INFO  (BaseTest.java:29) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <201>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.sai.restAssured.Tests.AllureReport.AllureReportGeneration.postAPIRequest(AllureReportGeneration.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+2025-03-20T13:37:06,565 [main] INFO  (AllureReportGeneration.java:44) - End to End test execution started
+2025-03-20T13:37:09,844 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 5922,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:37:12,120 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:37:13,387 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "d471fd15115d682"
+}
+2025-03-20T13:37:14,668 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:37:15,871 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:37:17,105 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:37:17,108 [main] INFO  (AllureReportGeneration.java:150) - End to End test execution Ended
+2025-03-20T13:37:18,363 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>null
+ Response Body ==>Forbidden
+2025-03-20T13:37:18,364 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/5922
+ Request Body ==>null
+ Response Body ==>Forbidden
+2025-03-20T13:37:18,398 [main] INFO  (BaseTest.java:29) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <403>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.sai.restAssured.Tests.AllureReport.AllureReportGeneration.deleteAPIRequest(AllureReportGeneration.java:162)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+2025-03-20T13:38:06,598 [main] INFO  (AllureReportGeneration.java:44) - End to End test execution started
+2025-03-20T13:38:09,510 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 6704,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:38:11,558 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:38:12,859 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "4e952fec52e6455"
+}
+2025-03-20T13:38:14,123 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:38:15,333 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:38:16,542 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:38:16,544 [main] INFO  (AllureReportGeneration.java:150) - End to End test execution Ended
+2025-03-20T13:38:17,763 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>null
+ Response Body ==>Forbidden
+2025-03-20T13:38:17,765 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/6704
+ Request Body ==>null
+ Response Body ==>Forbidden
+2025-03-20T13:38:17,799 [main] INFO  (BaseTest.java:29) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <403>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.sai.restAssured.Tests.AllureReport.AllureReportGeneration.deleteAPIRequest(AllureReportGeneration.java:162)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+2025-03-20T13:38:55,320 [main] INFO  (AllureReportGeneration.java:44) - End to End test execution started
+2025-03-20T13:38:58,551 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 7123,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:39:00,740 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/7123
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:39:01,996 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "863da2027b9eef4"
+}
+2025-03-20T13:39:03,258 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/7123
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:39:04,480 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/7123
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:39:05,735 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/7123
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:39:05,738 [main] INFO  (AllureReportGeneration.java:149) - End to End test execution Ended
+2025-03-20T13:42:46,733 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "f0a486b78bac0e8"
+}
+2025-03-20T13:42:47,430 [main] INFO  (AllureReportGeneration.java:45) - End to End test execution started
+2025-03-20T13:42:48,787 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 1548,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:42:50,190 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1548
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:42:51,403 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/1548
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:42:52,602 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1548
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:42:53,783 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/1548
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:42:53,785 [main] INFO  (AllureReportGeneration.java:150) - End to End test execution Ended
+2025-03-20T13:42:55,096 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "ef0be711d09aa29"
+}
+2025-03-20T13:56:05,243 [main] INFO  (AllureReportGeneration.java:42) - End to End test execution started for Token
+2025-03-20T13:56:07,955 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "60cf06fa0f7c98d"
+}
+2025-03-20T13:56:08,529 [main] INFO  (AllureReportGeneration.java:52) - End to End test execution Ended Token
+2025-03-20T13:56:08,560 [main] INFO  (AllureReportGeneration.java:61) - End to End test execution started
+2025-03-20T13:56:09,959 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 5548,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:56:11,331 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/5548
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:56:11,332 [main] INFO  (AllureReportGeneration.java:86) - End to End test execution Ended
+2025-03-20T13:56:11,354 [main] INFO  (AllureReportGeneration.java:42) - End to End test execution started for Token
+2025-03-20T13:56:12,678 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "1b0e011e115ae91"
+}
+2025-03-20T13:56:12,691 [main] INFO  (AllureReportGeneration.java:52) - End to End test execution Ended Token
+2025-03-20T13:56:12,697 [main] INFO  (AllureReportGeneration.java:95) - End to End test execution started for PUT
+2025-03-20T13:56:13,961 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/5548
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:56:15,164 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/5548
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:56:16,362 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/5548
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:56:16,364 [main] INFO  (AllureReportGeneration.java:123) - End to End test execution Ended PUT
+2025-03-20T13:56:16,372 [main] INFO  (AllureReportGeneration.java:42) - End to End test execution started for Token
+2025-03-20T13:56:17,587 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "aa42971c5c2b87d"
+}
+2025-03-20T13:56:17,599 [main] INFO  (AllureReportGeneration.java:52) - End to End test execution Ended Token
+2025-03-20T13:56:17,604 [main] INFO  (AllureReportGeneration.java:135) - End to End test execution started for DELETE
+2025-03-20T13:56:18,833 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/5548
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T13:56:18,837 [main] INFO  (AllureReportGeneration.java:142) - End to End test execution Ended DELETE
+2025-03-20T13:57:34,631 [main] INFO  (AllureReportGeneration.java:43) - End to End test execution started for Token
+2025-03-20T13:57:37,567 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "918582710432d78"
+}
+2025-03-20T13:57:38,131 [main] INFO  (AllureReportGeneration.java:53) - End to End test execution Ended Token
+2025-03-20T13:57:38,270 [main] INFO  (AllureReportGeneration.java:63) - End to End test execution started
+2025-03-20T13:57:39,685 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 7076,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:57:41,013 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/7076
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:57:41,014 [main] INFO  (AllureReportGeneration.java:88) - End to End test execution Ended
+2025-03-20T13:57:41,037 [main] INFO  (AllureReportGeneration.java:98) - End to End test execution started for PUT
+2025-03-20T13:57:42,292 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/7076
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:57:43,534 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/7076
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:57:44,695 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/7076
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:57:44,697 [main] INFO  (AllureReportGeneration.java:126) - End to End test execution Ended PUT
+2025-03-20T13:57:44,711 [main] INFO  (AllureReportGeneration.java:139) - End to End test execution started for DELETE
+2025-03-20T13:57:45,921 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/7076
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T13:57:45,922 [main] INFO  (AllureReportGeneration.java:146) - End to End test execution Ended DELETE
+2025-03-20T13:59:48,963 [main] INFO  (AllureReportGeneration.java:42) - End to End test execution started for Token
+2025-03-20T13:59:52,395 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "442da1d1eafc62d"
+}
+2025-03-20T13:59:53,034 [main] INFO  (AllureReportGeneration.java:52) - End to End test execution Ended Token
+2025-03-20T13:59:53,177 [main] INFO  (AllureReportGeneration.java:62) - End to End test execution started
+2025-03-20T13:59:54,603 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 9808,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T13:59:55,974 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/9808
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T13:59:55,974 [main] INFO  (AllureReportGeneration.java:87) - End to End test execution Ended
+2025-03-20T13:59:55,989 [main] INFO  (AllureReportGeneration.java:97) - End to End test execution started for PUT
+2025-03-20T13:59:57,278 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/9808
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:59:58,514 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/9808
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:59:59,815 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/9808
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T13:59:59,815 [main] INFO  (AllureReportGeneration.java:125) - End to End test execution Ended PUT
+2025-03-20T13:59:59,831 [main] INFO  (AllureReportGeneration.java:138) - End to End test execution started for DELETE
+2025-03-20T14:00:01,003 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/9808
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T14:00:01,003 [main] INFO  (AllureReportGeneration.java:145) - End to End test execution Ended DELETE
+2025-03-20T14:03:18,275 [main] INFO  (AllureReportGeneration.java:42) - End to End test execution started for Token
+2025-03-20T14:03:21,157 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "4dbd58c8d0917bf"
+}
+2025-03-20T14:03:21,679 [main] INFO  (AllureReportGeneration.java:52) - End to End test execution Ended Token
+2025-03-20T14:03:21,814 [main] INFO  (AllureReportGeneration.java:61) - End to End test execution started
+2025-03-20T14:03:23,277 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing",
+  "lastname" : "tutorial",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 3350,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T14:03:24,605 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3350
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 3523,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2024-01-01",
+        "checkout": "2025-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:03:24,609 [main] INFO  (AllureReportGeneration.java:86) - End to End test execution Ended
+2025-03-20T14:03:24,636 [main] INFO  (AllureReportGeneration.java:95) - End to End test execution started for PUT
+2025-03-20T14:03:25,866 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/3350
+ Request Body ==>{
+  "firstname" : "Specflow",
+  "lastname" : "Selenium C#",
+  "additionalneeds" : "biriyani specials",
+  "totalprice" : 4665,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2023-01-01",
+    "checkout" : "2024-01-01"
+  }
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T14:03:27,057 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3350
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T14:03:27,060 [main] INFO  (AllureReportGeneration.java:115) - End to End test execution Ended PUT
+2025-03-20T14:03:27,070 [main] INFO  (AllureReportGeneration.java:126) - End to End test execution Staeted PATCH
+2025-03-20T14:03:28,281 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/3350
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 4665,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2023-01-01",
+        "checkout": "2024-01-01"
+    },
+    "additionalneeds": "biriyani specials"
+}
+2025-03-20T14:03:28,283 [main] INFO  (AllureReportGeneration.java:135) - End to End test execution Ended PATCH
+2025-03-20T14:03:28,297 [main] INFO  (AllureReportGeneration.java:144) - End to End test execution started for DELETE
+2025-03-20T14:03:29,531 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/3350
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T14:03:29,532 [main] INFO  (AllureReportGeneration.java:151) - End to End test execution Ended DELETE
+2025-03-20T14:08:15,409 [main] INFO  (AllureReportGeneration.java:47) - End to End test execution started for Token
+2025-03-20T14:08:18,835 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "683caca7e7c4ff5"
+}
+2025-03-20T14:08:19,460 [main] INFO  (AllureReportGeneration.java:57) - End to End test execution Ended Token
+2025-03-20T14:08:19,611 [main] INFO  (AllureReportGeneration.java:66) - End to End test execution started
+2025-03-20T14:08:40,116 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+	"firstname": "api testing",
+	"lastname": "tutorial",
+	"totalprice": 1000,
+	"depositpaid": true,
+	"bookingdates": {
+		"checkin": "2018-01-01",
+		"checkout": "2019-01-01"
+	},
+	"additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "bookingid": 8708,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T14:53:17,130 [main] INFO  (AllureReportGeneration.java:47) - End to End test execution started for Token
+2025-03-20T14:53:21,101 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "d7cd981b6656237"
+}
+2025-03-20T14:53:21,719 [main] INFO  (AllureReportGeneration.java:57) - End to End test execution Ended Token
+2025-03-20T14:53:21,870 [main] INFO  (AllureReportGeneration.java:66) - End to End test execution started
+2025-03-20T14:53:23,219 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+	"firstname": "api testing",
+	"lastname": "tutorial",
+	"totalprice": 1000,
+	"depositpaid": true,
+	"bookingdates": {
+		"checkin": "2018-01-01",
+		"checkout": "2019-01-01"
+	},
+	"additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "bookingid": 1071,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T14:53:24,546 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1071
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:53:24,548 [main] INFO  (AllureReportGeneration.java:88) - End to End test execution Ended
+2025-03-20T14:53:24,571 [main] INFO  (AllureReportGeneration.java:97) - End to End test execution started for PUT
+2025-03-20T14:53:25,892 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/1071
+ Request Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:53:27,077 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/1071
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:53:27,079 [main] INFO  (AllureReportGeneration.java:116) - End to End test execution Ended PUT
+2025-03-20T14:53:27,092 [main] INFO  (AllureReportGeneration.java:127) - End to End test execution Staeted PATCH
+2025-03-20T14:53:28,306 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/1071
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:53:28,308 [main] INFO  (AllureReportGeneration.java:140) - End to End test execution Ended PATCH
+2025-03-20T14:53:28,320 [main] INFO  (AllureReportGeneration.java:149) - End to End test execution started for DELETE
+2025-03-20T14:53:29,566 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/1071
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T14:53:29,567 [main] INFO  (AllureReportGeneration.java:156) - End to End test execution Ended DELETE
+2025-03-20T14:57:14,740 [main] INFO  (AllureReportGeneration.java:48) - End to End test execution started for Token
+2025-03-20T14:57:18,082 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "6d4b542cb65fa6b"
+}
+2025-03-20T14:57:18,651 [main] INFO  (AllureReportGeneration.java:58) - End to End test execution Ended Token
+2025-03-20T14:57:18,792 [main] INFO  (AllureReportGeneration.java:67) - End to End test execution started
+2025-03-20T14:57:20,121 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+	"firstname": "api testing",
+	"lastname": "tutorial",
+	"totalprice": 1000,
+	"depositpaid": true,
+	"bookingdates": {
+		"checkin": "2018-01-01",
+		"checkout": "2019-01-01"
+	},
+	"additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "bookingid": 3096,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T14:57:21,492 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3096
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:57:21,492 [main] INFO  (AllureReportGeneration.java:89) - End to End test execution Ended
+2025-03-20T14:57:21,508 [main] INFO  (AllureReportGeneration.java:98) - End to End test execution started for PUT
+2025-03-20T14:57:22,795 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/3096
+ Request Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:57:24,046 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3096
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:57:24,046 [main] INFO  (AllureReportGeneration.java:119) - End to End test execution Ended PUT
+2025-03-20T14:57:24,062 [main] INFO  (AllureReportGeneration.java:133) - End to End test execution Staeted PATCH
+2025-03-20T14:57:25,301 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/3096
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:57:25,301 [main] INFO  (AllureReportGeneration.java:145) - End to End test execution Ended PATCH
+2025-03-20T14:57:25,301 [main] INFO  (AllureReportGeneration.java:154) - End to End test execution started for DELETE
+2025-03-20T14:57:26,565 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/3096
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T14:57:26,565 [main] INFO  (AllureReportGeneration.java:162) - End to End test execution Ended DELETE
+2025-03-20T14:58:52,381 [main] INFO  (AllureReportGeneration.java:48) - End to End test execution started for Token
+2025-03-20T14:58:55,394 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/auth
+ Request Body ==>{"password":"password123","username":"admin"}
+ Response Body ==>{
+    "token": "76b87acaa19d653"
+}
+2025-03-20T14:58:55,926 [main] INFO  (AllureReportGeneration.java:58) - End to End test execution Ended Token
+2025-03-20T14:58:56,083 [main] INFO  (AllureReportGeneration.java:67) - End to End test execution started
+2025-03-20T14:58:57,281 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+	"firstname": "api testing",
+	"lastname": "tutorial",
+	"totalprice": 1000,
+	"depositpaid": true,
+	"bookingdates": {
+		"checkin": "2018-01-01",
+		"checkout": "2019-01-01"
+	},
+	"additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "bookingid": 3936,
+    "booking": {
+        "firstname": "api testing",
+        "lastname": "tutorial",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T14:58:58,549 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3936
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "api testing",
+    "lastname": "tutorial",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:58:58,549 [main] INFO  (AllureReportGeneration.java:89) - End to End test execution Ended
+2025-03-20T14:58:58,581 [main] INFO  (AllureReportGeneration.java:98) - End to End test execution started for PUT
+2025-03-20T14:58:59,791 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PUT
+ URI ==>https://restful-booker.herokuapp.com/booking/3936
+ Request Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:59:01,056 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>GET
+ URI ==>https://restful-booker.herokuapp.com/booking/3936
+ Request Body ==>null
+ Response Body ==>{
+    "firstname": "Specflow",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:59:01,056 [main] INFO  (AllureReportGeneration.java:119) - End to End test execution Ended PUT
+2025-03-20T14:59:01,072 [main] INFO  (AllureReportGeneration.java:133) - End to End test execution Staeted PATCH
+2025-03-20T14:59:02,259 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>PATCH
+ URI ==>https://restful-booker.herokuapp.com/booking/3936
+ Request Body ==>{
+    "firstname": "Testers Talk"
+}
+ Response Body ==>{
+    "firstname": "Testers Talk",
+    "lastname": "Selenium C#",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "super bowls"
+}
+2025-03-20T14:59:02,259 [main] INFO  (AllureReportGeneration.java:145) - End to End test execution Ended PATCH
+2025-03-20T14:59:02,259 [main] INFO  (AllureReportGeneration.java:154) - End to End test execution started for DELETE
+2025-03-20T14:59:03,500 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>DELETE
+ URI ==>https://restful-booker.herokuapp.com/booking/3936
+ Request Body ==>null
+ Response Body ==>Created
+2025-03-20T14:59:03,516 [main] INFO  (BaseTest.java:29) - java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <201>.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:512)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+	at io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at com.sai.restAssured.Tests.AllureReport.AllureReportGeneration.deleteAPIRequest(AllureReportGeneration.java:160)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
+2025-03-20T16:17:10,507 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing by Sai",
+  "lastname" : "Srinivas",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 3056,
+    "booking": {
+        "firstname": "api testing by Sai",
+        "lastname": "Srinivas",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:17:12,629 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "rest assured testing by Ravi",
+  "lastname" : "Kiran",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 3074,
+    "booking": {
+        "firstname": "rest assured testing by Ravi",
+        "lastname": "Kiran",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:17:13,924 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "post man testing by Mohan",
+  "lastname" : "Rao",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 3089,
+    "booking": {
+        "firstname": "post man testing by Mohan",
+        "lastname": "Rao",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:19:19,412 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing by Sai",
+  "lastname" : "Srinivas",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4172,
+    "booking": {
+        "firstname": "api testing by Sai",
+        "lastname": "Srinivas",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:19:21,442 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "rest assured testing by Ravi",
+  "lastname" : "Kiran",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4185,
+    "booking": {
+        "firstname": "rest assured testing by Ravi",
+        "lastname": "Kiran",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:19:22,699 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "post man testing by Mohan",
+  "lastname" : "Rao",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4197,
+    "booking": {
+        "firstname": "post man testing by Mohan",
+        "lastname": "Rao",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:20:39,713 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "api testing by Sai",
+  "lastname" : "Srinivas",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4922,
+    "booking": {
+        "firstname": "api testing by Sai",
+        "lastname": "Srinivas",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:20:41,107 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "rest assured testing by Ravi",
+  "lastname" : "Kiran",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4930,
+    "booking": {
+        "firstname": "rest assured testing by Ravi",
+        "lastname": "Kiran",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T16:20:42,353 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : "post man testing by Mohan",
+  "lastname" : "Rao",
+  "additionalneeds" : "super bowls",
+  "totalprice" : 3523,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>{
+    "bookingid": 4942,
+    "booking": {
+        "firstname": "post man testing by Mohan",
+        "lastname": "Rao",
+        "totalprice": 3523,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2024-01-01",
+            "checkout": "2025-01-01"
+        },
+        "additionalneeds": "super bowls"
+    }
+}
+2025-03-20T17:03:52,604 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : null,
+  "lastname" : null,
+  "additionalneeds" : null,
+  "totalprice" : 0,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>Internal Server Error
+2025-03-20T17:03:52,622 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>{
+  "firstname" : null,
+  "lastname" : null,
+  "additionalneeds" : null,
+  "totalprice" : 0,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2024-01-01",
+    "checkout" : "2025-01-01"
+  }
+}
+ Response Body ==>Internal Server Error
+2025-03-20T17:18:33,586 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:33,593 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:34,955 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:34,957 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:36,207 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:36,211 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:37,488 [main] INFO  (RestAssureSuccessListener.java:22) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request
+2025-03-20T17:18:37,490 [main] INFO  (RestAssureListener.java:24) - 
+ Method ==>POST
+ URI ==>https://restful-booker.herokuapp.com/booking
+ Request Body ==>""
+ Response Body ==>Bad Request

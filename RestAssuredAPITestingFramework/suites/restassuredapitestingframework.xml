@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.sai.restAssured.Tests.AllureReport.AllureReportGeneration"/>
+      <class name="com.sai.restAssured.Tests.GetAPIRequest"/>
+      <class name="com.sai.restAssured.Tests.DataDrivenTesting.DataDrivenTestingUsingCsvFile"/>
+      <class name="com.sai.restAssured.Tests.PracticeComplexJsonPath"/>
+      <class name="com.sai.restAssured.Tests.PostAPIRequestUsingPOJO"/>
+      <class name="com.sai.restAssured.Tests.DataDrivenTesting.DataDrivenTestingUsingJsonFile"/>
+      <class name="com.sai.restAssured.Tests.PostAPIRequestUsingFile"/>
+      <class name="com.sai.restAssured.Tests.EndToEndAPIRequestUsingPOJO"/>
+      <class name="com.sai.restAssured.Tests.PostAPIRequest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
